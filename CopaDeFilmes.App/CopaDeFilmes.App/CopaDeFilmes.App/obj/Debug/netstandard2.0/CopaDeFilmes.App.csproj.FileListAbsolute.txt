@@ -1,0 +1,12 @@
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\bin\Debug\netstandard2.0\CopaDeFilmes.App.deps.json
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\bin\Debug\netstandard2.0\CopaDeFilmes.App.dll
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\bin\Debug\netstandard2.0\CopaDeFilmes.App.pdb
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.csprojAssemblyReference.cache
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.csproj.CoreCompileInputs.cache
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.AssemblyInfoInputs.cache
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.AssemblyInfo.cs
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.dll
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\CopaDeFilmes.App.pdb
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\View\App.xaml.g.cs
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs

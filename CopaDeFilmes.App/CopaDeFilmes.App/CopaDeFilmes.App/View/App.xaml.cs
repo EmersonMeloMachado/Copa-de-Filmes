@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CopaDeFilmes.App.Service.Abstracts;
+using CopaDeFilmes.App.Service.Concretes;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,8 +12,13 @@ namespace CopaDeFilmes.App.View
         public App()
         {
             InitializeComponent();
+            RegisterServices();
+            MainPage = new NavigationPage(new MainPage());
+        }
 
-            MainPage = new MainPage();
+        private void RegisterServices()
+        {
+            DependencyService.Register<IFilmesService, FilmesService>();
         }
 
         protected override void OnStart()

@@ -1,14 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:CopaDeFilmes.App"
-             x:Class="CopaDeFilmes.App.View.MainPage">
+             x:Class="CopaDeFilmes.App.View.MainPage"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="{Binding Name}" Command="{Binding ExcluirCommand}"/>
+    </ContentPage.ToolbarItems>
+    <Grid RowSpacing="0"
+              BackgroundColor="#ffffff"
+              ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <Grid RowSpacing="0" Grid.Row="0" HorizontalOptions="FillAndExpand" BackgroundColor="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
+            <Label Grid.Row="0" Text="{Binding QuantidadeFilmes}" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+        <ListView Grid.Row="1" 
+                  CachingStrategy="RecycleElement"
+                  IsPullToRefreshEnabled="true"
+                  RefreshCommand="{Binding LoadListaCommand}"
+                  IsRefreshing="{Binding IsRefreshing, Mode=OneWay}"
+                  ItemsSource="{Binding ListaDeFilmes}" 
+                  SelectedItem="{Binding ItemSelecionado}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding titulo}" Detail="{Binding ano}"/>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
 </ContentPage>
+
+    

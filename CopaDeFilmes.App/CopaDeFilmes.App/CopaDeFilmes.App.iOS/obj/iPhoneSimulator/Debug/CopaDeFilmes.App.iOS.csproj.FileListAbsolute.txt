@@ -1,5 +1,7 @@
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\CopaDeFilmes.App.iOS.exe
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\CopaDeFilmes.App.iOS.pdb
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.pdb
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -43,6 +45,7 @@ C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFi
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\CopaDeFilmes.App.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\CopaDeFilmes.App.pdb
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\bin\iPhoneSimulator\Debug\CopaDeFilmes.App.dll.mdb
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items

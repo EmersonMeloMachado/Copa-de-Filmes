@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c13ab3e9dd0afa602671531bfe3629542f85aa4e"
+    "signature": "9c2e617f0ff8c62b0675e2b781fe05dac441f1ba"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "CopaDeFilmes.App/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.1-beta1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
@@ -20,6 +21,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.1-beta1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22628"
+          }
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -59,6 +68,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cmCtkmZzWoHcwh96riskpZW9RqrAERDTCrWWXwfTdnKqOUIy2AMFF6Jje2jjKIoSVekwoTmf+WRr9cGRx8hRsQ==",
+      "path": "newtonsoft.json/12.0.1-beta1",
+      "hashPath": "newtonsoft.json.12.0.1-beta1.nupkg.sha512"
     },
     "Xamarin.Forms/3.3.0.967583": {
       "type": "package",

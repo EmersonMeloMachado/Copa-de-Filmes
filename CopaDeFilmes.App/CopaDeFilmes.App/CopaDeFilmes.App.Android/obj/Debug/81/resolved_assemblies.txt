@@ -4,6 +4,7 @@ C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFi
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\emers\Desktop\Copa-de-Filmes\CopaDeFilmes.App\CopaDeFilmes.App\CopaDeFilmes.App.Android\obj\Debug\81\android\assets\System.Xml.dll

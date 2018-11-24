@@ -21,5 +21,13 @@ namespace CopaDeFilmes.App.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new View.App());
         }
+
+        void CheckPermissions()
+        {
+            if((int)Build.VERSION.SdkInt >= 23)
+            {
+                VerificarPermissao.GetPermissions(this);
+            }  
+        }
     }
 }

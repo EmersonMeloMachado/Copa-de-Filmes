@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <doc>
-    <assembly>
-        <name>CopaDeFilmes.Api</name>
-    </assembly>
-    <members>
-    </members>
+  <assembly>
+    <name>CopaDeFilmes.Api</name>
+  </assembly>
+  <members>
+  </members>
 </doc>

@@ -1,10 +1,10 @@
-﻿using CopaDeFilmes.Api.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using CopaDeFilmes.Api.Models;
 using CopaDeFilmes.Api.Services.Abstracts;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Linq;
 
 namespace CopaDeFilmes.Api.Controllers
 {
@@ -19,21 +19,20 @@ namespace CopaDeFilmes.Api.Controllers
         {
             _filmesService = filmesService;
         }
-
+        
         [HttpGet]
         public async Task<ActionResult<IList<Filmes>>> GetAsync()
         {
             try
             {
                 var Result = await _filmesService.ObterListaFilmesService();
-                return  Ok(Result);
+                return Ok(Result);
             }
             catch(Exception ex)
             {
                 return BadRequest(ex);
             }
         }
-
 
         [HttpPost]
         public async Task<ActionResult<IList<Filmes>>> PostAsync(String[] id)
@@ -48,7 +47,5 @@ namespace CopaDeFilmes.Api.Controllers
                 return BadRequest(ex);
             }
         }
-
-
     }
 }

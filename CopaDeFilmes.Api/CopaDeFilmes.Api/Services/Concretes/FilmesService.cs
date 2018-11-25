@@ -1,16 +1,17 @@
-﻿using System;
+﻿using CopaDeFilmes.Api.Models;
+using CopaDeFilmes.Api.Services.Abstracts;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using CopaDeFilmes.Api.Models;
-using CopaDeFilmes.Api.Services.Abstracts;
-using System.Collections.Generic;
 
 namespace CopaDeFilmes.Api.Services.Concretes
 {
     public class FilmesService : IFilmesService
     {
-        private readonly string baseUrl = $"http://copafilmes.azurewebsites.net/api/filmes";
+        private readonly string baseUrl = $"https://copadosfilmes.azurewebsites.net/api/filmes";
 
         private IList<Filmes> FilmesResult;
         private HttpClient _httpClient;
@@ -31,7 +32,7 @@ namespace CopaDeFilmes.Api.Services.Concretes
                     {
                         if(!_response.IsSuccessStatusCode)
                         {
-                            throw new Exception("Não foi possivel obter a lista de filmes. Code(" + _response.StatusCode + ")" );
+                            throw new Exception("Não foi possivel obter a lista de filmes. Code(" + _response.StatusCode + ")");
                         }
                         else
                         {

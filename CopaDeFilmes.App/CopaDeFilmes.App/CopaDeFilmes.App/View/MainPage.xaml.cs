@@ -10,10 +10,5 @@ namespace CopaDeFilmes.App.View
             InitializeComponent();
             BindingContext = new MainViewModel();
         }
-
-        protected override bool OnBackButtonPressed()
-        {
-            return false;
-        }
     }
 }

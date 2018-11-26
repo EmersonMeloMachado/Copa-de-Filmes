@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CopaDeFilmes.Api.Models;
-using CopaDeFilmes.Api.Services.Abstracts;
 using Microsoft.AspNetCore.Mvc;
+using CopaDeFilmes.Api.Business;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using CopaDeFilmes.Api.Services.Abstracts;
 
 namespace CopaDeFilmes.Api.Controllers
 {
@@ -12,8 +14,8 @@ namespace CopaDeFilmes.Api.Controllers
     [ApiController]
     public class FilmesController : Controller
     {
-
         private readonly IFilmesService _filmesService;
+        public ObservableCollection<Filmes> obterCampeao { get; }
 
         public FilmesController(IFilmesService filmesService)
         {
@@ -35,12 +37,14 @@ namespace CopaDeFilmes.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<IList<Filmes>>> PostAsync(String[] id)
+        public ActionResult<IList<Filmes>> Post([FromBody]IList<Filmes> ListaDeFilmes)
         {
             try
             {
-                var Result = await _filmesService.ObterListaFilmesService();
-                return Ok(Result.Take(2));
+
+                ConfrontoEntreFilmes Vencedor = new ConfrontoEntreFilmes();
+                var Result = Vencedor.ObterVencedor(ListaDeFilmes);
+                return Ok(Result);
             }
             catch(Exception ex)
             {

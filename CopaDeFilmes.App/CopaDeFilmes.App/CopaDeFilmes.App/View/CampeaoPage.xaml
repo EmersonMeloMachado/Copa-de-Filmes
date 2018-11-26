@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CopaDeFilmes.App.View.CampeaoPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lvClientes" 
+                      HasUnevenRows="True"  
+                      CachingStrategy="RecycleElement"
+                      ItemsSource="{Binding ListaDosVencedores}"
+                      SeparatorVisibility="None"
+                      VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>                            
+                            <StackLayout Orientation="Horizontal">
+                                <Frame CornerRadius="2"  
+                                       OutlineColor="Gray" 
+                                       BackgroundColor="Gray"
+                                       HasShadow="False"
+                                       Margin="10,10,0,10">
+                                    <Label Text="{Binding PosicaoFilmes}" FontSize="20"/>
+                                </Frame>
+                                <Frame CornerRadius="2"  
+                                       OutlineColor="Gray" 
+                                       HasShadow="False"
+                                       Margin="0,10,10,10">
+                                     <Label Text="{Binding titulo}" FontSize="15"/>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

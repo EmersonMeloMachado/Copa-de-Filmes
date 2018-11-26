@@ -15,7 +15,6 @@ namespace CopaDeFilmes.Api.Services.Concretes
 
         private IList<Filmes> FilmesResult;
         private HttpClient _httpClient;
-        private readonly string _key;
 
         public FilmesService()
         {

@@ -74,7 +74,7 @@ namespace CopaDeFilmes.App.ViewModel
         private Command _ExcluirCommand;
 
         public Command ExcluirCommand => _ExcluirCommand ??
-            (_ExcluirCommand = new Command(() => ExcluirCommandExecute(), () => ExcluirCommandCanExecute()));
+            (_ExcluirCommand = new Command(() => ExcluirCommandExecuteAsync(), () => ExcluirCommandCanExecute()));
 
         private bool ExcluirCommandCanExecute()
         {
@@ -85,7 +85,7 @@ namespace CopaDeFilmes.App.ViewModel
 
             return true;
         }
-        private void ExcluirCommandExecute()
+        private async Task ExcluirCommandExecuteAsync()
         {
             try
             {
@@ -101,17 +101,9 @@ namespace CopaDeFilmes.App.ViewModel
                     ListaDeFilmes.Remove(ItemSelecionado);
                     ObterQuantidadeDeFiles();
                 }
-                else if(ListaDeFilmes.Count == 8)
+                else
                 {
-                    ObterVencedores(4);
-                }
-                else if(ListaDeFilmes.Count == 4)
-                {
-                    ObterVencedores(2);
-                }
-                else if(ListaDeFilmes.Count == 2)
-                {
-                    ObterVencedores(1);
+                    await PushAsync(new CampeaoPage(ListaDeFilmes));
                 }
             }
             catch(Exception ex)
@@ -238,7 +230,7 @@ namespace CopaDeFilmes.App.ViewModel
                 try
                 {
                     IsRefreshing = true;
-                    lFilmes = await _iFilmesService.ObterListaFilmesServiceAsync();
+                    lFilmes = await _iFilmesService.GetListaFilmesServiceAsync();
                     if(lFilmes.Count > 0 || lFilmes != null)
                     {
                         ListaDeFilmes.Clear();
